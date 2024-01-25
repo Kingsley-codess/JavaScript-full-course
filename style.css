@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ 
+
+}
+
+.nav-container {
+}
+
+h1 {
+  color:white;
+  padding-block: 1rem;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: gray;
+  min-height: 70vh;
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  gap: 2rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 2rem;
+  padding-block: 2rem;
+}
+li {
+  color: black;
+  font-size: 2rem;
+}
+
+ul li {
+  background: pink;
+  padding: 1rem 2rem;
+}
+
+ul li:active {
+  background: red;
+}
+
+
+
+
+.scroll-watcher{
+  position: fixed;
+  height:10px;
+  top:0;
+  width: 100%;
+  z-index: 1000;
+  transform-origin: left;
+  background-color:lime;
+  scale:0 1;
+  animation: scroll-watcher linear;
+
+}
+
+@keyframes scroll-watcher {
+
+  to{
+    scale:1 1;
+  }
+
+}
+.scrool{
+  background: red;
+  height:20px;
+  width: 20px;
+position: fi;
+}
